@@ -26,6 +26,7 @@ boxes.forEach((box)=>{
     box.addEventListener("click",()=>{
         if(boxVal){
             boxVal = false;
+            box.classList.add("addColor");
             box.innerText = 'O';
         }
         else{
