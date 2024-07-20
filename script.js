@@ -31,6 +31,7 @@ boxes.forEach((box)=>{
         }
         else{
             boxVal = true;
+            box.classList.remove("addColor");
             box.innerText = 'X';
         }
         box.disabled = true;
